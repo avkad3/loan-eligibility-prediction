@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/hp/Desktop/ads/loan-prediction/mlruns/1/models/m-97804bb8e66a4cf98f424016e7126057/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-97804bb8e66a4cf98f424016e7126057
+model_size_bytes: 1673475
+model_uuid: m-97804bb8e66a4cf98f424016e7126057
+prompts: null
+run_id: 69ee24c46dab450fb3553616c438b5f4
+utc_time_created: '2026-09-25 18:49:36.875179'

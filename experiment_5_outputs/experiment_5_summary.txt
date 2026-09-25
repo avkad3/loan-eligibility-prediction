@@ -1,0 +1,59 @@
+
+============================================================
+EXPERIMENT 5 COMPLETE
+============================================================
+
+Model:
+tuned_random_forest.pkl
+
+Dataset:
+loan_dataset_with_target.csv
+
+Target:
+loan_eligibility
+
+Accuracy on available dataset:
+1.0000
+
+SHAP outputs:
+- shap_summary.png
+- shap_feature_importance.png
+- shap_dependence.png
+- shap_feature_importance.csv
+
+LIME outputs:
+- lime_explanation.html
+- lime_explanation.txt
+
+Fairness outputs:
+- fairness_audit_report.txt
+- fairness_group_metrics.csv
+- fairness_positive_prediction_rate.png
+
+Sensitive attribute:
+Not detected
+
+============================================================
+CONCLUSION
+============================================================
+
+SHAP was used to identify the features that contributed most
+strongly to the Random Forest predictions at a global level.
+
+LIME was used to explain an individual model prediction and
+show which feature conditions contributed to that prediction.
+
+Fairlearn was used to evaluate prediction disparities across
+the selected sensitive attribute using demographic parity
+difference and equalized odds difference.
+
+If measurable disparities are observed, possible mitigation
+strategies include reweighting or resampling during
+pre-processing, fairness-constrained model training, or
+post-processing threshold adjustment.
+
+Because the loan eligibility target in this project was
+engineered from financial variables, the explainability and
+fairness findings should be interpreted as an audit of this
+specific experimental dataset and target-generation rule,
+rather than as evidence about a real-world lending system.

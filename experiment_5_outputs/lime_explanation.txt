@@ -1,0 +1,19 @@
+LIME Local Explanation
+=======================
+
+Sample index: 0
+Actual class: 0
+Predicted class: 0
+
+Feature contributions:
+
+total_dti <= 0.25: 0.082787
+578.00 < credit_score <= 712.00: 0.072806
+annual_income > 155308.25: 0.044236
+debt_to_income_ratio <= 0.15: 0.031702
+employment_status_Retired <= 0.00: 0.026584
+num_dependents > 4.00: -0.025830
+0.00 < property_ownership_Mortgage <= 1.00: 0.020527
+property_ownership_Own <= 0.00: -0.017210
+employment_status_Self-employed <= 0.00: 0.014678
+employment_status_Unemployed <= 0.00: -0.014304

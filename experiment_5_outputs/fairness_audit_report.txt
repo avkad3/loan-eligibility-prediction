@@ -1,0 +1,13 @@
+FAIRNESS AUDIT REPORT
+=====================
+
+Dataset: loan_dataset_with_target.csv
+
+Model: tuned_random_forest.pkl
+
+Target: loan_eligibility
+
+
+No common sensitive attribute was found.
+Expected columns include: gender, sex, race, ethnicity, age, or marital_status.
+Fairness metrics were therefore not calculated.
